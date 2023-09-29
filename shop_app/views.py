@@ -31,22 +31,22 @@ def main(request):
 
 # вывод всех товаров
 def products(request):
-    list_products = []
     products = Product.objects.all()                        #получение данных из табл Product  БД
+    string = ''
     for product in products:
-        list_products.append(product)
+        string += str(product) + '<br>'
     logger.info(f'Страница "Список продуктов" успешно открыта')
-    return HttpResponse(list_products)
+    return HttpResponse(string)
 
 
 #вывод списка всех клиентов
 def clients(request):
-    list_clients = []
     clients = Client.objects.all()
+    string = ''
     for client in clients:
-        list_clients.append(client)
+       string += str(client) + '<br>'
     logger.info(f'Страница "Список клиентов" успешно открыта')
-    return HttpResponse(list_clients)
+    return HttpResponse(string)
 
 
 # вывод заказа по  id
@@ -57,10 +57,8 @@ def order(request, id_order: int):
 
 #вывод списка заказов
 def orders(request):
-    list_orders = []
     string = ''
     orders = Order.objects.all()
     for order in orders:
-        list_orders.append(order)
-        string += str(order) + '\n'
+        string += str(order) + '<br>'
     return HttpResponse(string)

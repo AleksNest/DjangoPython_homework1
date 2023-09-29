@@ -1185,3 +1185,112 @@ INFO 2023-09-29 18:43:58,493 basehttp 16140 27504 "GET /shop/main/ HTTP/1.1" 200
 INFO 2023-09-29 18:44:00,753 basehttp 16140 27504 "GET /? HTTP/1.1" 200 524
 INFO 2023-09-29 18:44:02,258 basehttp 16140 27504 "GET /shop/main/ HTTP/1.1" 200 736
 INFO 2023-09-29 18:44:20,393 basehttp 16140 27504 "GET /shop/clients/ HTTP/1.1" 200 7207
+INFO 2023-09-29 21:40:38,032 autoreload 18660 18404 Watching for file changes with StatReloader
+INFO 2023-09-29 21:40:45,307 basehttp 18660 26556 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:40:47,733 basehttp 18660 26556 "GET /shop/main/ HTTP/1.1" 200 736
+INFO 2023-09-29 21:40:49,236 basehttp 18660 26556 "GET /shop/clients/ HTTP/1.1" 200 7207
+INFO 2023-09-29 21:43:30,404 autoreload 18660 18404 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-09-29 21:43:30,954 autoreload 14160 23068 Watching for file changes with StatReloader
+INFO 2023-09-29 21:43:32,003 basehttp 14160 13736 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:43:34,503 basehttp 14160 13736 "GET /shop/main/ HTTP/1.1" 200 736
+ERROR 2023-09-29 21:43:35,950 log 14160 13736 Internal Server Error: /shop/clients/
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 49, in clients
+    string += client + '<br>'
+              ~~~~~~~^~~~~~~~
+TypeError: unsupported operand type(s) for +: 'Client' and 'str'
+ERROR 2023-09-29 21:43:35,952 basehttp 14160 13736 "GET /shop/clients/ HTTP/1.1" 500 68534
+INFO 2023-09-29 21:43:52,185 autoreload 14160 23068 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-09-29 21:43:52,715 autoreload 24180 2480 Watching for file changes with StatReloader
+INFO 2023-09-29 21:43:53,806 basehttp 24180 19200 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:43:55,382 basehttp 24180 19200 "GET /shop/main/ HTTP/1.1" 200 736
+INFO 2023-09-29 21:43:56,269 basehttp 24180 19200 "GET /shop/clients/ HTTP/1.1" 200 7527
+INFO 2023-09-29 21:45:18,476 autoreload 24180 2480 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-09-29 21:45:19,007 autoreload 2992 17528 Watching for file changes with StatReloader
+INFO 2023-09-29 21:45:19,927 basehttp 2992 26712 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:45:21,856 basehttp 2992 26712 "GET /shop/main/ HTTP/1.1" 200 736
+INFO 2023-09-29 21:45:23,299 basehttp 2992 26712 "GET /shop/products/ HTTP/1.1" 200 10941
+INFO 2023-09-29 21:45:26,027 basehttp 2992 26712 "GET /shop/clients/ HTTP/1.1" 200 7527
+INFO 2023-09-29 21:46:03,657 autoreload 2992 17528 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-09-29 21:46:04,198 autoreload 25280 13860 Watching for file changes with StatReloader
+INFO 2023-09-29 21:46:05,006 basehttp 25280 24408 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:46:07,674 basehttp 25280 24408 "GET /shop/main/ HTTP/1.1" 200 736
+INFO 2023-09-29 21:46:09,613 basehttp 25280 24408 "GET /shop/orders/ HTTP/1.1" 200 44065
+INFO 2023-09-29 21:47:13,517 autoreload 25280 13860 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-09-29 21:47:14,052 autoreload 25068 27024 Watching for file changes with StatReloader
+INFO 2023-09-29 21:47:15,008 basehttp 25068 24580 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:47:16,871 basehttp 25068 24580 "GET /shop/main/ HTTP/1.1" 200 736
+INFO 2023-09-29 21:47:18,422 basehttp 25068 24580 "GET /shop/orders/ HTTP/1.1" 200 44179
+INFO 2023-09-29 21:49:49,704 autoreload 25068 27024 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py changed, reloading.
+INFO 2023-09-29 21:49:50,264 autoreload 25492 1596 Watching for file changes with StatReloader
+INFO 2023-09-29 21:49:51,546 basehttp 25492 10184 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:49:53,629 basehttp 25492 10184 "GET /shop/main/ HTTP/1.1" 200 736
+ERROR 2023-09-29 21:49:55,055 log 25492 10184 Internal Server Error: /shop/orders/
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 63, in orders
+    string += str(order) + '<br>'
+              ^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py", line 35, in __str__
+    return f'name_of_client: {self.buyer.name_client} \nproducts: {[product for product in self.products.objects.all()]} \ntotal_cost: {self.total_cost} \ndate_create_order: {self.date_create_order}'
+                                                                                           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ManyRelatedManager' object has no attribute 'objects'
+ERROR 2023-09-29 21:49:55,057 basehttp 25492 10184 "GET /shop/orders/ HTTP/1.1" 500 69453
+INFO 2023-09-29 21:50:58,000 autoreload 25492 1596 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py changed, reloading.
+INFO 2023-09-29 21:50:58,549 autoreload 23024 19212 Watching for file changes with StatReloader
+INFO 2023-09-29 21:51:03,102 autoreload 23024 19212 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py changed, reloading.
+INFO 2023-09-29 21:51:03,665 autoreload 19452 13256 Watching for file changes with StatReloader
+INFO 2023-09-29 21:51:04,751 basehttp 19452 15104 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:51:06,644 basehttp 19452 15104 "GET /shop/main/ HTTP/1.1" 200 736
+ERROR 2023-09-29 21:51:07,654 log 19452 15104 Internal Server Error: /shop/orders/
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 63, in orders
+    string += str(order) + '<br>'
+              ^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py", line 35, in __str__
+    return f'name_of_client: {self.buyer.name_client} \nproducts: {[product for product in self.products]} \ntotal_cost: {self.total_cost} \ndate_create_order: {self.date_create_order}'
+                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'ManyRelatedManager' object is not iterable
+ERROR 2023-09-29 21:51:07,657 basehttp 19452 15104 "GET /shop/orders/ HTTP/1.1" 500 69219
+INFO 2023-09-29 21:51:38,272 autoreload 19452 13256 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py changed, reloading.
+INFO 2023-09-29 21:51:38,855 autoreload 18132 20556 Watching for file changes with StatReloader
+INFO 2023-09-29 21:51:43,433 autoreload 18132 20556 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py changed, reloading.
+INFO 2023-09-29 21:51:44,013 autoreload 23192 24664 Watching for file changes with StatReloader
+INFO 2023-09-29 21:52:22,469 autoreload 23192 24664 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py changed, reloading.
+INFO 2023-09-29 21:52:22,993 autoreload 27252 17524 Watching for file changes with StatReloader
+INFO 2023-09-29 21:52:26,433 basehttp 27252 18048 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:52:28,130 basehttp 27252 18048 "GET /shop/main/ HTTP/1.1" 200 736
+INFO 2023-09-29 21:52:29,439 basehttp 27252 18048 "GET /shop/orders/ HTTP/1.1" 200 44597
+INFO 2023-09-29 21:53:25,341 autoreload 27252 17524 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py changed, reloading.
+INFO 2023-09-29 21:53:25,954 autoreload 25672 25312 Watching for file changes with StatReloader
+INFO 2023-09-29 21:53:26,185 basehttp 25672 21256 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:53:47,114 autoreload 16196 19824 Watching for file changes with StatReloader
+INFO 2023-09-29 21:53:48,375 basehttp 16196 18196 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:53:50,051 basehttp 16196 18196 "GET /shop/main/ HTTP/1.1" 200 736
+INFO 2023-09-29 21:53:51,780 basehttp 16196 18196 "GET /shop/orders/ HTTP/1.1" 200 4488
+INFO 2023-09-29 21:54:27,648 autoreload 16196 19824 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py changed, reloading.
+INFO 2023-09-29 21:54:28,182 autoreload 20216 23068 Watching for file changes with StatReloader
+INFO 2023-09-29 21:54:30,004 basehttp 20216 17620 "GET / HTTP/1.1" 200 524
+INFO 2023-09-29 21:54:31,700 views 20216 17620 Страница "О себе" успешно открыта
+INFO 2023-09-29 21:54:31,700 basehttp 20216 17620 "GET /about_me/ HTTP/1.1" 200 2769
+INFO 2023-09-29 21:54:33,949 basehttp 20216 17620 "GET /shop/main/ HTTP/1.1" 200 736
+INFO 2023-09-29 21:54:34,691 basehttp 20216 17620 "GET /shop/clients/ HTTP/1.1" 200 7527
+INFO 2023-09-29 21:54:36,835 basehttp 20216 17620 "GET /shop/products/ HTTP/1.1" 200 10941
+INFO 2023-09-29 21:54:40,665 basehttp 20216 17620 "GET /shop/orders/ HTTP/1.1" 200 44597

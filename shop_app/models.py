@@ -32,7 +32,7 @@ class Order(models.Model):
     date_create_order = models.DateField(auto_now_add=True)
 
     def __str__(self):
-        return f'name_of_client: {self.buyer.name_client} \nproducts: {[product for product in self.products.all()]} \ntotal_cost: {self.total_cost} \ndate_create_order: {self.date_create_order}'
+        return f'name_of_client: {self.buyer.name_client} \nproducts: {self.products.all()} \ntotal_cost: {self.total_cost} \ndate_create_order: {self.date_create_order}'
 
 
 
