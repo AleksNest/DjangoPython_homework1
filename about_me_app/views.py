@@ -23,9 +23,7 @@ def main(request):
         <br>
         <footer>
             <div>
-                <p> <strong>перейти на страницу проекта </strong>
-                    <a href="http://127.0.0.1:8000"><strong>my_project</strong></a>.
-                </p>
+                <p> Контакты: </p>
             </div>
         </footer>
         """
@@ -82,9 +80,7 @@ def about_me(request):
         <br>
         <footer>
             <div>
-                <p> <strong>перейти на страницу проекта </strong>
-                    <a href="http://127.0.0.1:8000"><strong>my_project</strong></a>.
-                </p>
+                <p> Контакты: </p>
             </div>
         </footer>
         """
