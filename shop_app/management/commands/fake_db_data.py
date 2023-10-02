@@ -25,19 +25,19 @@ class Command(BaseCommand):
             clients_.append(client)
 
         # формируем 20 товаров
-        pr = 20
+        pr = 5
         for j in range(1, pr):
             product = Product(name_product=f'product{j}',
                             description_product=f'description{j}',
                             cost=f'{random.randint(1,100)}.{random.randint(1,100)}',
-                            quantity=f'{random.randint(1, 20)}',
-                            date_add_product = f'27-0-2023')
+                            quantity=f'{random.randint(1, 10)}',
+                            date_add_product = f'01-10-2023')
             product.save()
             products_.append(product)
 
         #формируем 10 заказов
         total_cost = 0
-        for k in range(1, 10):
+        for k in range(1, 5):
             order = Order(buyer=clients_[random.randint(0, count-1)])
             for m in range(0, pr-1):
                 if random.randint(0, 1) == 1:

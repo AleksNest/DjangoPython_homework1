@@ -7,8 +7,9 @@ from django.http import HttpResponse
 def index(request):
     page_index = '''
         <ul>
-            <li><a href="http://127.0.0.1:8000/about_me/">Домашняя работа №1</a></li>
-            <li><a href="http://127.0.0.1:8000/shop/main">Домашняя работа №2 </a></li>
+            <li><a href="http://127.0.0.1:8000/about_me/">О себе</a></li>
+            <li><a href="http://127.0.0.1:8000/shop/main">Интерент магазин </a></li>
+            
         </ul>
         <br>
         <footer>
