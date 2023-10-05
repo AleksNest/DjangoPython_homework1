@@ -90,3 +90,22 @@
 5. Создание шаблонов для выше перичисленных представлений:  client_all_products_from_orders.html, client_orders.html
 
 
+#Задание4
+- Измените модель продукта, добавьте поле для хранения фотографии продукта.
+- Создайте форму, которая позволит сохранять фото.
+
+1. Выполняем начальные команды 
+- (my_project) PS C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project> venv\Scripts\activate.ps1
+- python -m pip install Pill  - для работы c изображениями
+2. В models.py изменяем модель, дописываем поле img 
+- (venv) PS C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project> python manage.py makemigrations shop_app
+- (venv) PS C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project> python manage.py migrate
+3. В settings.py прописываем каталоги для хранения изображений:  
+  MEDIA_URL = '/media/'
+  MEDIA_ROOT = BASE_DIR / 'media'
+4. Пишем код в views.py класс Product_form для  формы для ввода данных о продукте
+5. Прописываем маршрут к view
+6. Пишем шаблон product_form.html
+7. Запускаем сервер и заполняем форму. Изображение сохранилось в папку 
+ 
+   

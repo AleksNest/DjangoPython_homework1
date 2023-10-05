@@ -9211,3 +9211,759 @@ ERROR 2023-10-02 20:43:49,699 basehttp 29028 30544 "GET /shop/client_orders/5 HT
 INFO 2023-10-02 20:44:05,929 autoreload 29028 28120 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
 INFO 2023-10-02 20:44:06,442 autoreload 30268 27872 Watching for file changes with StatReloader
 INFO 2023-10-02 20:44:06,614 basehttp 30268 30092 "GET /shop/client_orders/5 HTTP/1.1" 200 9003
+INFO 2023-10-02 20:52:54,441 autoreload 21852 31656 Watching for file changes with StatReloader
+INFO 2023-10-02 20:52:56,447 basehttp 21852 20216 "GET / HTTP/1.1" 200 511
+INFO 2023-10-02 20:52:58,200 basehttp 21852 20216 "GET /shop/main/ HTTP/1.1" 200 1125
+INFO 2023-10-02 20:52:59,211 basehttp 21852 20216 "GET /shop/client_orders/5 HTTP/1.1" 200 9003
+INFO 2023-10-05 18:31:10,810 autoreload 29324 28436 Watching for file changes with StatReloader
+INFO 2023-10-05 18:31:53,343 autoreload 29324 28436 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\forms.py changed, reloading.
+INFO 2023-10-05 18:31:53,924 autoreload 19444 9528 Watching for file changes with StatReloader
+INFO 2023-10-05 18:32:21,381 basehttp 19444 31504 "GET / HTTP/1.1" 200 511
+WARNING 2023-10-05 18:32:21,537 log 19444 31504 Not Found: /favicon.ico
+WARNING 2023-10-05 18:32:21,537 basehttp 19444 31504 "GET /favicon.ico HTTP/1.1" 404 2717
+INFO 2023-10-05 18:32:25,095 basehttp 19444 31504 "GET /shop/main/ HTTP/1.1" 200 1125
+INFO 2023-10-05 18:36:53,409 basehttp 19444 31504 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 18:36:54,143 autoreload 19444 9528 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 18:36:54,727 autoreload 23824 26692 Watching for file changes with StatReloader
+INFO 2023-10-05 18:36:55,287 basehttp 23824 10684 "GET /shop/main/ HTTP/1.1" 200 1345
+ERROR 2023-10-05 18:36:56,401 log 23824 10684 Internal Server Error: /shop/product_form/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: BaseForm.__init__() got an unexpected keyword argument 'id_product'
+ERROR 2023-10-05 18:36:56,402 basehttp 23824 10684 "GET /shop/product_form/2 HTTP/1.1" 500 63798
+INFO 2023-10-05 18:39:44,307 autoreload 23824 26692 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 18:39:44,841 autoreload 18668 29552 Watching for file changes with StatReloader
+INFO 2023-10-05 18:39:46,012 basehttp 18668 20484 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 18:39:47,948 basehttp 18668 20484 "GET /shop/main/ HTTP/1.1" 200 1345
+ERROR 2023-10-05 18:39:48,916 log 18668 20484 Internal Server Error: /shop/product_form/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 111, in product_form
+    product = get_object_or_404(Good, pk=id_product)
+              ^^^^^^^^^^^^^^^^^
+NameError: name 'get_object_or_404' is not defined
+ERROR 2023-10-05 18:39:48,918 basehttp 18668 20484 "GET /shop/product_form/2 HTTP/1.1" 500 67866
+INFO 2023-10-05 18:40:41,129 autoreload 18668 29552 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 18:40:41,655 autoreload 1292 27488 Watching for file changes with StatReloader
+INFO 2023-10-05 18:40:42,894 basehttp 1292 15632 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 18:40:44,801 basehttp 1292 15632 "GET /shop/main/ HTTP/1.1" 200 1345
+ERROR 2023-10-05 18:40:45,696 log 1292 15632 Internal Server Error: /shop/product_form/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 112, in product_form
+    product = get_object_or_404(Good, pk=id_product)
+                                ^^^^
+NameError: name 'Good' is not defined
+ERROR 2023-10-05 18:40:45,698 basehttp 1292 15632 "GET /shop/product_form/2 HTTP/1.1" 500 67824
+INFO 2023-10-05 18:42:19,137 autoreload 1292 27488 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 18:42:19,683 autoreload 14324 22104 Watching for file changes with StatReloader
+INFO 2023-10-05 18:45:03,785 autoreload 14324 22104 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 18:45:04,359 autoreload 15120 24744 Watching for file changes with StatReloader
+INFO 2023-10-05 18:45:05,296 basehttp 15120 17768 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 18:45:07,248 basehttp 15120 17768 "GET /shop/main/ HTTP/1.1" 200 1345
+ERROR 2023-10-05 18:45:08,254 log 15120 17768 Internal Server Error: /shop/product_form/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 112, in product_form
+    product = get_object_or_404(Good, pk=id_product)
+                                ^^^^
+NameError: name 'Good' is not defined
+ERROR 2023-10-05 18:45:08,256 basehttp 15120 17768 "GET /shop/product_form/2 HTTP/1.1" 500 67824
+INFO 2023-10-05 18:46:50,085 autoreload 15120 24744 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 18:46:50,621 autoreload 16708 6588 Watching for file changes with StatReloader
+INFO 2023-10-05 18:46:51,530 basehttp 16708 28788 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 18:46:53,996 basehttp 16708 28788 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 18:46:55,034 basehttp 16708 28788 "GET /shop/product_form/2 HTTP/1.1" 200 1776
+ERROR 2023-10-05 18:48:15,978 log 16708 28788 Internal Server Error: /shop/product_form/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'description'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 117, in product_form
+    product.description_product = request.POST["description"]
+                                  ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'description'
+ERROR 2023-10-05 18:48:15,980 basehttp 16708 28788 "POST /shop/product_form/2 HTTP/1.1" 500 79363
+INFO 2023-10-05 18:49:03,427 autoreload 16708 6588 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 18:49:03,982 autoreload 7728 15220 Watching for file changes with StatReloader
+INFO 2023-10-05 18:49:10,593 basehttp 7728 22780 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 18:49:12,473 basehttp 7728 22780 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 18:49:13,487 basehttp 7728 22780 "GET /shop/product_form/2 HTTP/1.1" 200 1776
+INFO 2023-10-05 18:49:33,276 basehttp 7728 22780 "POST /shop/product_form/2 HTTP/1.1" 302 0
+INFO 2023-10-05 18:49:33,281 basehttp 7728 22780 "GET /shop/products/ HTTP/1.1" 200 461
+INFO 2023-10-05 19:08:16,478 autoreload 7728 15220 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 19:08:17,048 autoreload 22320 15116 Watching for file changes with StatReloader
+INFO 2023-10-05 19:08:22,184 basehttp 22320 20252 "GET /shop/products/ HTTP/1.1" 200 33
+INFO 2023-10-05 19:09:12,280 autoreload 22320 15116 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 19:09:12,816 autoreload 3880 14128 Watching for file changes with StatReloader
+INFO 2023-10-05 19:09:13,680 basehttp 3880 20176 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:09:17,659 basehttp 3880 20176 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:09:22,541 basehttp 3880 20176 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 19:09:24,372 basehttp 3880 20176 "GET /shop/products/ HTTP/1.1" 200 495
+INFO 2023-10-05 19:10:09,924 autoreload 3880 14128 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 19:10:10,451 autoreload 7684 11620 Watching for file changes with StatReloader
+INFO 2023-10-05 19:10:23,186 autoreload 7684 11620 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 19:10:23,710 autoreload 10264 2060 Watching for file changes with StatReloader
+INFO 2023-10-05 19:10:24,771 basehttp 10264 25284 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:10:26,543 basehttp 10264 25284 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 19:10:27,924 basehttp 10264 25284 "GET /shop/products/ HTTP/1.1" 200 493
+INFO 2023-10-05 19:10:56,094 autoreload 10264 2060 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 19:10:56,625 autoreload 23024 13664 Watching for file changes with StatReloader
+INFO 2023-10-05 19:10:57,693 basehttp 23024 6560 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:10:59,345 basehttp 23024 6560 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 19:11:00,701 basehttp 23024 6560 "GET /shop/products/ HTTP/1.1" 200 497
+INFO 2023-10-05 19:11:14,604 autoreload 23024 13664 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 19:11:15,137 autoreload 8272 11664 Watching for file changes with StatReloader
+INFO 2023-10-05 19:11:16,113 basehttp 8272 5256 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:11:18,144 basehttp 8272 5256 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 19:11:19,405 basehttp 8272 5256 "GET /shop/clients/ HTTP/1.1" 200 427
+INFO 2023-10-05 19:11:21,790 basehttp 8272 5256 "GET /shop/products/ HTTP/1.1" 200 513
+INFO 2023-10-05 19:11:44,439 autoreload 8272 11664 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 19:11:44,966 autoreload 26900 6368 Watching for file changes with StatReloader
+INFO 2023-10-05 19:11:46,060 basehttp 26900 10816 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:11:47,741 basehttp 26900 10816 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 19:11:50,302 basehttp 26900 10816 "GET /shop/products/ HTTP/1.1" 200 501
+INFO 2023-10-05 19:12:27,647 autoreload 26900 6368 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 19:12:28,169 autoreload 7040 30212 Watching for file changes with StatReloader
+INFO 2023-10-05 19:12:29,016 basehttp 7040 20124 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:12:30,696 basehttp 7040 20124 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 19:12:31,866 basehttp 7040 20124 "GET /shop/clients/ HTTP/1.1" 200 465
+INFO 2023-10-05 19:12:33,706 basehttp 7040 20124 "GET /shop/products/ HTTP/1.1" 200 501
+INFO 2023-10-05 19:12:35,921 basehttp 7040 20124 "GET /shop/orders/ HTTP/1.1" 200 11571
+INFO 2023-10-05 19:12:43,729 basehttp 7040 20124 "GET /shop/client_products_sorted/4/1 HTTP/1.1" 301 0
+INFO 2023-10-05 19:12:43,740 basehttp 7040 18684 "GET /shop/client_products_sorted/4/1/ HTTP/1.1" 200 645
+INFO 2023-10-05 19:12:52,509 basehttp 7040 18684 "GET /shop/product_form/2 HTTP/1.1" 200 1793
+INFO 2023-10-05 19:12:57,476 basehttp 7040 18684 "GET /shop/client_products_sorted/4/1/ HTTP/1.1" 200 645
+INFO 2023-10-05 19:13:22,181 basehttp 7040 18684 "GET /shop/clients/ HTTP/1.1" 200 465
+INFO 2023-10-05 19:13:28,549 basehttp 7040 18684 "GET /shop/client_products_sorted/4/1/ HTTP/1.1" 200 645
+INFO 2023-10-05 19:13:56,581 basehttp 7040 18684 "GET /shop/client_products_sorted/4/5/ HTTP/1.1" 200 1178
+INFO 2023-10-05 19:24:10,799 autoreload 19340 6792 Watching for file changes with StatReloader
+INFO 2023-10-05 19:24:11,931 basehttp 19340 18844 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:24:13,761 basehttp 19340 18844 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 19:24:15,253 basehttp 19340 18844 "GET /shop/product_form/2 HTTP/1.1" 200 1793
+INFO 2023-10-05 19:27:04,332 basehttp 19340 18844 "POST /shop/product_form/2 HTTP/1.1" 302 0
+INFO 2023-10-05 19:27:04,337 basehttp 19340 18844 "GET /shop/products/ HTTP/1.1" 200 497
+INFO 2023-10-05 19:38:47,417 autoreload 19340 6792 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 19:38:47,968 autoreload 21796 14976 Watching for file changes with StatReloader
+INFO 2023-10-05 19:38:49,125 basehttp 21796 16912 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:38:51,236 basehttp 21796 16912 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 19:38:52,086 basehttp 21796 16912 "GET /shop/product_form/2 HTTP/1.1" 200 1803
+INFO 2023-10-05 19:39:20,935 basehttp 21796 16912 "POST /shop/product_form/2 HTTP/1.1" 302 0
+INFO 2023-10-05 19:39:20,940 basehttp 21796 16912 "GET /shop/products/ HTTP/1.1" 200 497
+INFO 2023-10-05 19:44:15,970 autoreload 21796 14976 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py changed, reloading.
+INFO 2023-10-05 19:44:16,510 autoreload 22692 8372 Watching for file changes with StatReloader
+INFO 2023-10-05 19:44:17,616 basehttp 22692 26680 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:44:19,581 basehttp 22692 26680 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 19:44:20,734 basehttp 22692 26680 "GET /shop/product_form/2 HTTP/1.1" 200 1803
+INFO 2023-10-05 19:44:35,710 basehttp 22692 26680 "POST /shop/product_form/2 HTTP/1.1" 302 0
+INFO 2023-10-05 19:44:35,715 basehttp 22692 26680 "GET /shop/products/ HTTP/1.1" 200 496
+INFO 2023-10-05 19:47:58,859 basehttp 22692 26680 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 19:48:01,646 basehttp 22692 26680 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 19:48:13,871 basehttp 22692 26680 "GET /shop/clients/ HTTP/1.1" 200 465
+INFO 2023-10-05 19:48:26,764 basehttp 22692 26680 "GET /shop/products/ HTTP/1.1" 200 496
+INFO 2023-10-05 19:48:34,088 basehttp 22692 26680 "GET /shop/products/ HTTP/1.1" 200 496
+INFO 2023-10-05 20:05:51,894 autoreload 22692 8372 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:05:52,444 autoreload 2452 16140 Watching for file changes with StatReloader
+INFO 2023-10-05 20:05:53,480 basehttp 2452 14764 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:05:58,551 basehttp 2452 14764 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:06:02,740 basehttp 2452 14764 "GET /shop/products/ HTTP/1.1" 200 496
+ERROR 2023-10-05 20:06:07,415 log 2452 14764 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 97, in product
+    'date': product.date_add_product, 'image': product.image  })
+                                               ^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'image'
+ERROR 2023-10-05 20:06:07,417 basehttp 2452 14764 "GET /shop/product/1 HTTP/1.1" 500 68033
+INFO 2023-10-05 20:07:00,369 autoreload 3408 25072 Watching for file changes with StatReloader
+INFO 2023-10-05 20:07:01,530 basehttp 3408 12520 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:07:04,877 basehttp 3408 12520 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:07:07,389 basehttp 3408 12520 "GET /shop/products/ HTTP/1.1" 200 496
+ERROR 2023-10-05 20:07:12,065 log 3408 12520 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 97, in product
+    'date': product.date_add_product, 'image': product.image  })
+                                               ^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'image'
+ERROR 2023-10-05 20:07:12,068 basehttp 3408 12520 "GET /shop/product/1 HTTP/1.1" 500 68033
+INFO 2023-10-05 20:07:30,906 autoreload 3408 25072 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:07:31,447 autoreload 30000 31504 Watching for file changes with StatReloader
+INFO 2023-10-05 20:07:32,581 basehttp 30000 24048 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:07:35,381 basehttp 30000 24048 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:07:36,839 basehttp 30000 24048 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:07:38,728 basehttp 30000 24048 "GET /shop/products/ HTTP/1.1" 200 496
+ERROR 2023-10-05 20:07:43,706 log 30000 24048 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:07:43,708 basehttp 30000 24048 "GET /shop/product/2 HTTP/1.1" 500 67229
+INFO 2023-10-05 20:08:39,335 basehttp 30000 24048 "GET /shop/product_form/2 HTTP/1.1" 200 1802
+INFO 2023-10-05 20:08:41,245 basehttp 30000 24048 "GET /shop/orders/ HTTP/1.1" 200 11506
+INFO 2023-10-05 20:08:43,291 basehttp 30000 24048 "GET /shop/products/ HTTP/1.1" 200 496
+INFO 2023-10-05 20:08:47,982 basehttp 30000 24048 "GET /shop/products/ HTTP/1.1" 200 496
+INFO 2023-10-05 20:08:50,826 basehttp 30000 24048 "GET /shop/products/ HTTP/1.1" 200 496
+ERROR 2023-10-05 20:08:55,721 log 30000 24048 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:08:55,722 basehttp 30000 24048 "GET /shop/product/1 HTTP/1.1" 500 67205
+INFO 2023-10-05 20:09:28,730 autoreload 30000 31504 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:09:29,271 autoreload 8388 24304 Watching for file changes with StatReloader
+INFO 2023-10-05 20:09:30,322 basehttp 8388 9384 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:09:32,024 basehttp 8388 9384 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:09:34,292 basehttp 8388 9384 "GET /shop/products/ HTTP/1.1" 200 496
+ERROR 2023-10-05 20:09:38,216 log 8388 9384 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 94, in product
+    product = Product.objects.get(pk=id_product).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'first'
+ERROR 2023-10-05 20:09:38,218 basehttp 8388 9384 "GET /shop/product/1 HTTP/1.1" 500 68016
+ERROR 2023-10-05 20:09:38,294 log 8388 9384 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 94, in product
+    product = Product.objects.get(pk=id_product).first()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'first'
+ERROR 2023-10-05 20:09:38,296 basehttp 8388 9384 "GET /shop/product/1 HTTP/1.1" 500 67742
+INFO 2023-10-05 20:10:01,850 autoreload 8388 24304 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:10:02,390 autoreload 13488 18596 Watching for file changes with StatReloader
+INFO 2023-10-05 20:10:03,494 basehttp 13488 7144 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:10:05,416 basehttp 13488 7144 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:10:06,943 basehttp 13488 7144 "GET /shop/products/ HTTP/1.1" 200 496
+ERROR 2023-10-05 20:10:10,942 log 13488 7144 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:10:10,943 basehttp 13488 7144 "GET /shop/product/1 HTTP/1.1" 500 67479
+ERROR 2023-10-05 20:10:11,024 log 13488 7144 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:10:11,025 basehttp 13488 7144 "GET /shop/product/1 HTTP/1.1" 500 67205
+INFO 2023-10-05 20:13:31,111 autoreload 13488 18596 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:13:31,649 autoreload 1608 6412 Watching for file changes with StatReloader
+INFO 2023-10-05 20:13:32,659 basehttp 1608 30232 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:13:34,361 basehttp 1608 30232 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:13:35,801 basehttp 1608 30232 "GET /shop/products/ HTTP/1.1" 200 496
+ERROR 2023-10-05 20:13:40,336 log 1608 30232 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:13:40,338 basehttp 1608 30232 "GET /shop/product/2 HTTP/1.1" 500 67229
+INFO 2023-10-05 20:18:27,879 autoreload 1608 6412 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\models.py changed, reloading.
+INFO 2023-10-05 20:18:28,445 autoreload 23320 30280 Watching for file changes with StatReloader
+INFO 2023-10-05 20:18:31,622 basehttp 23320 10860 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:18:33,065 basehttp 23320 10860 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:18:35,447 basehttp 23320 10860 "GET /shop/products/ HTTP/1.1" 200 536
+INFO 2023-10-05 20:19:37,382 basehttp 23320 10860 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:19:39,499 basehttp 23320 10860 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:19:41,248 basehttp 23320 10860 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:19:42,356 basehttp 23320 10860 "GET /shop/products/ HTTP/1.1" 200 536
+ERROR 2023-10-05 20:19:47,224 log 23320 10860 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:19:47,226 basehttp 23320 10860 "GET /shop/product/2 HTTP/1.1" 500 67229
+INFO 2023-10-05 20:22:15,852 autoreload 23320 30280 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:22:16,397 autoreload 27248 24696 Watching for file changes with StatReloader
+INFO 2023-10-05 20:22:17,518 basehttp 27248 23360 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:22:19,157 basehttp 27248 23360 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:22:20,465 basehttp 27248 23360 "GET /shop/products/ HTTP/1.1" 200 536
+INFO 2023-10-05 20:22:22,657 basehttp 27248 23360 "GET /shop/products/ HTTP/1.1" 200 536
+ERROR 2023-10-05 20:22:28,117 log 27248 23360 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:22:28,119 basehttp 27248 23360 "GET /shop/product/1 HTTP/1.1" 500 67575
+ERROR 2023-10-05 20:22:28,254 log 27248 23360 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:22:28,255 basehttp 27248 23360 "GET /shop/product/1 HTTP/1.1" 500 67301
+INFO 2023-10-05 20:24:01,134 autoreload 27248 24696 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:24:01,667 autoreload 27028 7720 Watching for file changes with StatReloader
+INFO 2023-10-05 20:24:02,701 basehttp 27028 14972 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:24:04,679 basehttp 27028 14972 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:24:06,115 basehttp 27028 14972 "GET /shop/products/ HTTP/1.1" 200 536
+ERROR 2023-10-05 20:24:12,309 log 27028 14972 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:24:12,311 basehttp 27028 14972 "GET /shop/product/1 HTTP/1.1" 500 67575
+ERROR 2023-10-05 20:24:12,445 log 27028 14972 Internal Server Error: /shop/product/1
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:24:12,447 basehttp 27028 14972 "GET /shop/product/1 HTTP/1.1" 500 67301
+INFO 2023-10-05 20:26:37,859 autoreload 27028 7720 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:26:38,389 autoreload 9628 21808 Watching for file changes with StatReloader
+INFO 2023-10-05 20:26:39,382 basehttp 9628 20304 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:26:40,972 basehttp 9628 20304 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:26:42,532 basehttp 9628 20304 "GET /shop/products/ HTTP/1.1" 200 536
+ERROR 2023-10-05 20:26:47,290 log 9628 20304 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:26:47,291 basehttp 9628 20304 "GET /shop/product/2 HTTP/1.1" 500 67369
+ERROR 2023-10-05 20:26:47,467 log 9628 20304 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\middleware\clickjacking.py", line 27, in process_response
+    if response.get("X-Frame-Options") is not None:
+       ^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'get'
+ERROR 2023-10-05 20:26:47,469 basehttp 9628 20304 "GET /shop/product/2 HTTP/1.1" 500 67095
+INFO 2023-10-05 20:33:54,859 autoreload 9628 21808 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:33:55,407 autoreload 23752 14692 Watching for file changes with StatReloader
+INFO 2023-10-05 20:33:56,268 basehttp 23752 27224 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:33:57,846 basehttp 23752 27224 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:34:01,399 basehttp 23752 27224 "GET /shop/products/ HTTP/1.1" 200 536
+ERROR 2023-10-05 20:34:05,774 log 23752 27224 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 98, in product
+    return render(request, "shop/product.html", context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/product.html
+ERROR 2023-10-05 20:34:05,777 basehttp 23752 27224 "GET /shop/product/2 HTTP/1.1" 500 83722
+ERROR 2023-10-05 20:34:05,927 log 23752 27224 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 98, in product
+    return render(request, "shop/product.html", context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/product.html
+ERROR 2023-10-05 20:34:05,930 basehttp 23752 27224 "GET /shop/product/2 HTTP/1.1" 500 83448
+INFO 2023-10-05 20:35:49,389 autoreload 23752 14692 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:35:49,928 autoreload 352 26004 Watching for file changes with StatReloader
+INFO 2023-10-05 20:35:50,949 basehttp 352 8108 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:35:52,423 basehttp 352 8108 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:35:54,678 basehttp 352 8108 "GET /shop/products/ HTTP/1.1" 200 536
+ERROR 2023-10-05 20:35:58,729 log 352 8108 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 98, in product
+    return render(request, "shop/product.html", context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/product.html
+ERROR 2023-10-05 20:35:58,732 basehttp 352 8108 "GET /shop/product/2 HTTP/1.1" 500 84028
+ERROR 2023-10-05 20:35:58,903 log 352 8108 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 98, in product
+    return render(request, "shop/product.html", context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: shop/product.html
+ERROR 2023-10-05 20:35:58,905 basehttp 352 8108 "GET /shop/product/2 HTTP/1.1" 500 83754
+INFO 2023-10-05 20:37:19,180 autoreload 352 26004 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:37:19,722 autoreload 7476 8176 Watching for file changes with StatReloader
+INFO 2023-10-05 20:37:20,725 basehttp 7476 14768 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:37:22,388 basehttp 7476 14768 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:37:23,615 basehttp 7476 14768 "GET /shop/products/ HTTP/1.1" 200 536
+ERROR 2023-10-05 20:37:27,478 log 7476 14768 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 94, in product
+    product = Client.objects.filter(pk=product).first()
+                                       ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2023-10-05 20:37:27,480 basehttp 7476 14768 "GET /shop/product/2 HTTP/1.1" 500 67891
+ERROR 2023-10-05 20:37:27,649 log 7476 14768 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 94, in product
+    product = Client.objects.filter(pk=product).first()
+                                       ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2023-10-05 20:37:27,651 basehttp 7476 14768 "GET /shop/product/2 HTTP/1.1" 500 67617
+INFO 2023-10-05 20:39:13,868 autoreload 25720 13500 Watching for file changes with StatReloader
+INFO 2023-10-05 20:39:15,954 basehttp 25720 21032 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:39:18,068 basehttp 25720 21032 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:39:19,104 basehttp 25720 21032 "GET /shop/products/ HTTP/1.1" 200 536
+ERROR 2023-10-05 20:39:24,286 log 25720 21032 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 94, in product
+    product = Client.objects.filter(pk=product).first()
+                                       ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2023-10-05 20:39:24,288 basehttp 25720 21032 "GET /shop/product/2 HTTP/1.1" 500 67891
+ERROR 2023-10-05 20:39:24,461 log 25720 21032 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 94, in product
+    product = Client.objects.filter(pk=product).first()
+                                       ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2023-10-05 20:39:24,463 basehttp 25720 21032 "GET /shop/product/2 HTTP/1.1" 500 67617
+INFO 2023-10-05 20:42:30,453 autoreload 25720 13500 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:42:31,005 autoreload 25860 15960 Watching for file changes with StatReloader
+INFO 2023-10-05 20:42:31,963 basehttp 25860 10532 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:42:35,321 basehttp 25860 10532 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:42:36,314 basehttp 25860 10532 "GET /shop/products/ HTTP/1.1" 200 536
+ERROR 2023-10-05 20:42:40,757 log 25860 10532 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 94, in product
+    product = Client.objects.filter(pk=product).first()
+                                       ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2023-10-05 20:42:40,759 basehttp 25860 10532 "GET /shop/product/2 HTTP/1.1" 500 67900
+ERROR 2023-10-05 20:42:40,920 log 25860 10532 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 94, in product
+    product = Client.objects.filter(pk=product).first()
+                                       ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2023-10-05 20:42:40,922 basehttp 25860 10532 "GET /shop/product/2 HTTP/1.1" 500 67626
+INFO 2023-10-05 20:44:27,076 autoreload 25860 15960 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:44:27,628 autoreload 2060 20936 Watching for file changes with StatReloader
+INFO 2023-10-05 20:44:28,469 basehttp 2060 15436 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:44:30,989 basehttp 2060 15436 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:44:31,920 basehttp 2060 15436 "GET /shop/products/ HTTP/1.1" 200 536
+ERROR 2023-10-05 20:44:36,459 log 2060 15436 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 94, in product
+    product = Product.objects.filter(pk=product).first()
+                                        ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2023-10-05 20:44:36,461 basehttp 2060 15436 "GET /shop/product/2 HTTP/1.1" 500 67904
+ERROR 2023-10-05 20:44:36,627 log 2060 15436 Internal Server Error: /shop/product/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 94, in product
+    product = Product.objects.filter(pk=product).first()
+                                        ^^^^^^^
+UnboundLocalError: cannot access local variable 'product' where it is not associated with a value
+ERROR 2023-10-05 20:44:36,628 basehttp 2060 15436 "GET /shop/product/2 HTTP/1.1" 500 67630
+INFO 2023-10-05 20:45:14,645 autoreload 2060 20936 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:45:15,177 autoreload 21136 28988 Watching for file changes with StatReloader
+INFO 2023-10-05 20:45:16,144 basehttp 21136 24532 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:45:18,126 basehttp 21136 24532 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:45:19,252 basehttp 21136 24532 "GET /shop/products/ HTTP/1.1" 200 536
+INFO 2023-10-05 20:45:23,202 basehttp 21136 24532 "GET /shop/product/2 HTTP/1.1" 200 108
+INFO 2023-10-05 20:45:23,401 basehttp 21136 24532 "GET /shop/product/2 HTTP/1.1" 200 108
+INFO 2023-10-05 20:46:35,135 autoreload 21136 28988 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:46:35,689 autoreload 12688 1564 Watching for file changes with StatReloader
+INFO 2023-10-05 20:46:36,517 basehttp 12688 22040 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:46:38,428 basehttp 12688 22040 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:46:40,864 basehttp 12688 22040 "GET /shop/products/ HTTP/1.1" 200 536
+INFO 2023-10-05 20:46:45,090 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 554
+INFO 2023-10-05 20:46:45,298 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 554
+INFO 2023-10-05 20:49:58,009 basehttp 12688 22040 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:49:59,919 basehttp 12688 22040 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:50:00,663 basehttp 12688 22040 "GET /shop/products/ HTTP/1.1" 200 536
+INFO 2023-10-05 20:50:04,844 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 708
+INFO 2023-10-05 20:50:05,028 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 708
+INFO 2023-10-05 20:50:55,665 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 708
+INFO 2023-10-05 20:50:59,490 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 705
+INFO 2023-10-05 20:51:11,909 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 710
+INFO 2023-10-05 20:51:14,972 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 710
+INFO 2023-10-05 20:51:23,392 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 710
+INFO 2023-10-05 20:51:24,509 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 713
+INFO 2023-10-05 20:51:36,216 basehttp 12688 22040 "GET /shop/product/2 HTTP/1.1" 200 713
+INFO 2023-10-05 20:52:43,151 autoreload 12688 1564 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:52:43,724 autoreload 9664 6064 Watching for file changes with StatReloader
+INFO 2023-10-05 20:52:46,845 basehttp 9664 25748 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:52:47,969 basehttp 9664 25748 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:52:49,238 basehttp 9664 25748 "GET /shop/product_form/2 HTTP/1.1" 200 1802
+ERROR 2023-10-05 20:53:17,449 log 9664 25748 Internal Server Error: /shop/product_form/2
+Traceback (most recent call last):
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py", line 136, in product_form
+    return redirect("product")
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'product' with no arguments not found. 1 pattern(s) tried: ['shop/product/(?P<id_product>[0-9]+)\\Z']
+ERROR 2023-10-05 20:53:17,452 basehttp 9664 25748 "POST /shop/product_form/2 HTTP/1.1" 500 91078
+INFO 2023-10-05 20:55:38,235 autoreload 9664 6064 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 20:55:38,943 autoreload 16692 24012 Watching for file changes with StatReloader
+INFO 2023-10-05 20:55:42,857 basehttp 16692 4448 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 20:55:44,035 basehttp 16692 4448 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 20:55:45,167 basehttp 16692 4448 "GET /shop/product_form/2 HTTP/1.1" 200 1804
+INFO 2023-10-05 20:56:12,712 basehttp 16692 4448 "POST /shop/product_form/2 HTTP/1.1" 302 0
+INFO 2023-10-05 20:56:12,719 basehttp 16692 4448 "GET /shop/product/2 HTTP/1.1" 200 725
+INFO 2023-10-05 21:04:19,769 basehttp 16692 10532 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 21:04:20,188 autoreload 16692 24012 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 21:04:20,879 autoreload 14620 11888 Watching for file changes with StatReloader
+INFO 2023-10-05 21:04:21,574 basehttp 14620 27028 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 21:04:24,637 basehttp 14620 27028 "GET /shop/product_form/2 HTTP/1.1" 200 1804
+INFO 2023-10-05 21:04:40,565 basehttp 14620 27028 "POST /shop/product_form/2 HTTP/1.1" 302 0
+INFO 2023-10-05 21:04:40,572 basehttp 14620 27028 "GET /shop/product/2 HTTP/1.1" 200 748
+INFO 2023-10-05 21:06:05,919 autoreload 14620 11888 C:\Users\Алексей\Desktop\GreekBrains\ДОМАШКА\django\my_project\shop_app\views.py changed, reloading.
+INFO 2023-10-05 21:06:06,473 autoreload 15132 21396 Watching for file changes with StatReloader
+INFO 2023-10-05 21:06:18,735 basehttp 15132 2096 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 21:06:20,276 basehttp 15132 2096 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 21:06:22,219 basehttp 15132 2096 "GET /shop/product_form/2 HTTP/1.1" 200 1803
+INFO 2023-10-05 21:06:25,341 basehttp 15132 2096 "GET /shop/product_form/3 HTTP/1.1" 200 1785
+INFO 2023-10-05 21:06:56,597 basehttp 15132 2096 "POST /shop/product_form/3 HTTP/1.1" 302 0
+INFO 2023-10-05 21:06:56,603 basehttp 15132 2096 "GET /shop/product/3 HTTP/1.1" 200 736
+INFO 2023-10-05 21:07:07,430 basehttp 15132 2096 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 21:07:08,880 basehttp 15132 2096 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 21:07:10,664 basehttp 15132 2096 "GET /shop/products/ HTTP/1.1" 200 606
+INFO 2023-10-05 21:07:53,280 basehttp 15132 2096 "GET /shop/products/ HTTP/1.1" 200 606
+INFO 2023-10-05 21:08:07,579 basehttp 15132 2096 "GET / HTTP/1.1" 200 511
+INFO 2023-10-05 21:08:11,154 basehttp 15132 2096 "GET /shop/main/ HTTP/1.1" 200 1345
+INFO 2023-10-05 21:08:14,901 basehttp 15132 2096 "GET /shop/product_form/2 HTTP/1.1" 200 1803
+INFO 2023-10-05 21:08:20,816 basehttp 15132 2096 "GET /shop/product_form/4 HTTP/1.1" 200 1785
+INFO 2023-10-05 21:08:46,222 basehttp 15132 2096 "POST /shop/product_form/4 HTTP/1.1" 302 0
+INFO 2023-10-05 21:08:46,228 basehttp 15132 2096 "GET /shop/product/4 HTTP/1.1" 200 739
