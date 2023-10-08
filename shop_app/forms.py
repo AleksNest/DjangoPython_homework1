@@ -8,3 +8,13 @@ class ProductForm(forms.Form):
     quantity = forms.IntegerField()
     image = forms.ImageField(widget=forms.FileInput(attrs={"placeholder": "Изображение продукта"}))
 
+
+class ChoiceProductById(forms.Form):
+    id_product = forms.IntegerField()
+
+class ChoiceProductByClientBydays(forms.Form):
+    id_client = forms.IntegerField()
+    days = forms.IntegerField()
+
+
+

@@ -9,9 +9,8 @@
         <p>
             id заказа={{ order.id }} <br>
             Клиент: id={{order.buyer.id}} {{ order.buyer }} <br>
-            {{ order }} <br>
-
-            общая стоимость заказа: {{ order.total_cost }} <br>
+            {{ order.products.all }}
+            <br> общая стоимость заказа: {{ order.total_cost }} <br>
             дата создсния заказа: {{ order.date_create_order }} <br>
         </p>
         <br>
